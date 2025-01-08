@@ -1,0 +1,39 @@
+/* General styles */
+body {
+  background-color: #222;
+  color: #ddd;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Input field */
+input {
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: #ddd;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* User list */
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Signed in/out styles */
+p.user-signed-in {
+  color: #00FF00;
+}
+
+p.user-signed-out {
+  color: #FF0000;
+}
