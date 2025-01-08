@@ -20,7 +20,7 @@ input {
 .user-list {
   display: grid;
   /* The users should be displayed in a grid of cells, filling the screen.  The user should not have to scroll down */
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   gap: 10px;
   padding: 10px;
 }
